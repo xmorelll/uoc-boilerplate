@@ -1,21 +1,123 @@
 body {
   margin: 0;
-  padding: 30px;
   font-family: $font-family-sans-serif;
   background-color: $uoc-bg;
-  color: $uoc-corporate;
 }
 
-.uoc-logo {
-  display: block;
-  margin-bottom: 20px;
-  max-width: 300px;
-  height: auto;
+.content {
+  min-height: 100%;
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
 }
 
-.uoc-title {
-  font-family: $font-family-serif;
-  font-size: 36px;
-  font-weight: 700;
-  color: $uoc-corporate;
+.content-personal {
+  background-color: $personal-bg;
+  color: $personal-color;
+  flex: 1;
 }
+
+.content-career {
+  background-color: $career-bg;
+  color: $career-color;
+  flex: 3;
+}
+
+
+//IMAGE
+.xavi {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.xavi-img {
+  border-radius: 50%;
+  max-width: 100%;
+  border: 2px solid white;
+}
+
+
+//Name BOX
+.name-box {
+  background-color: rgba(255, 255, 255, 0.4) ;
+}
+
+//PERCENT BARS
+.percent-bar {
+  height: 15px;
+  width: 100%;
+  border: 1px solid white;
+}
+
+.percent-bar .percent-100 {
+  background-color: green;
+  width: 100%;
+  height: 100%;
+ }
+
+.percent-bar .percent-80 {
+  background-color: green;
+  width: 80%;
+  height: 100%;
+}
+
+
+//FONT
+.header {
+  font-family: $font-family-arial;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.bold--text {
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 11px;
+}
+
+
+
+.my-3 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.mt-1 {
+  margin-top: 4px;
+}
+
+
+.mt-2 {
+  margin-top: 8px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.pa-2 {
+  padding: 8px;
+}
+
+.pa-4 {
+  padding: 16px;
+}
+
+.pa-8 {
+  padding: 32px;
+}
+
+
+
+
+
